@@ -29,7 +29,7 @@ scrim.git.path <- "https://raw.githubusercontent.com/scrim-network/"
 # year, time in years from 1880 to 2013 at the half year mark
 # slr, global mean sea level in mm
 # err.obs, global mean sea level measurement error in mm
-url <- paste(scrim.git.path, "BRICK/master/data/GMSL_ChurchWhite2011_yr_2015.txt", sep="")
+url <- paste(scrim.git.path, "BRICK/BRICKms/data/GMSL_ChurchWhite2011_yr_2015.txt", sep="")
 download.file(url, paste(dir.path, "GMSL_ChurchWhite2011_yr_2015.txt", sep=""))
 church.data <- read.table("lab_X/GMSL_ChurchWhite2011_yr_2015.txt")
 year <- church.data[ ,1] - 0.5 
