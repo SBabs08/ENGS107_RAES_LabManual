@@ -1,3 +1,18 @@
+#Lab #X: A Calibration Problem and Markov chain Monte Carlo (Kelsey L. Ruckert, Tony E. Wong, Yawen Guan, Murali Haran, and Patrick J. Applegate)
+#Edited by Sitara Baboolal 
+
+#Copyright 2017 by the Authors
+
+#This file is part of Risk Analysis in the Earth Sciences: A Lab Manual with Exercises in R. 
+
+#This e-textbook is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. -->
+
+#This e-textbook is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. -->
+
+#You should have received a copy of the GNU General Public License along with this e-textbook.  If not, see <http://www.gnu.org/licenses/>. -->
+
+###### This script follows the workflow outlined in MCMC Chapter 2 #######
+
 # Clear away any existing variables or figures.  
 rm(list = ls())
 graphics.off()
